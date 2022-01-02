@@ -1,6 +1,6 @@
 const express = require('express')
-const internalAPI = require('./internal');
-const externalAPI = require('./external');
+const internalAPI = require('./src/internal');
+const externalAPI = require('./src/external');
 
 const app = express();
 
